@@ -18,7 +18,7 @@ class LogoAndContent extends StatelessWidget {
         Image.asset("assets/images/Logo.png"),
         Spacer(),
         ShortDetails(size: size),
-        Spacer(flex: 1),
+        Spacer(flex: 2),
       ],
     );
   }

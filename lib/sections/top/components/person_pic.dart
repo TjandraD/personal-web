@@ -8,7 +8,7 @@ class PersonPic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CircleAvatar(
-      maxRadius: 200.0,
+      maxRadius: 150.0,
       backgroundImage: AssetImage("assets/images/person.JPG"),
     );
   }

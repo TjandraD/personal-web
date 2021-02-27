@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:portfolio_web/common/styles.dart';
 import 'package:portfolio_web/sections/top/top_section.dart';
 import 'package:url_strategy/url_strategy.dart';
+import 'common/constants.dart';
+import 'sections/about/about_section.dart';
 
 void main() {
   setPathUrlStrategy();
@@ -28,6 +30,8 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: [
             TopSection(),
+            SizedBox(height: kDefaultPadding * 2),
+            AboutSection(),
           ],
         ),
       ),
