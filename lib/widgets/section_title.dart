@@ -45,7 +45,7 @@ class SectionTitle extends StatelessWidget {
                 title,
                 style: Theme.of(context)
                     .textTheme
-                    .headline2
+                    .headline3
                     .copyWith(fontWeight: FontWeight.bold, color: Colors.black),
               )
             ],

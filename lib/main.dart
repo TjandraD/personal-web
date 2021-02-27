@@ -4,6 +4,7 @@ import 'package:portfolio_web/sections/top/top_section.dart';
 import 'package:url_strategy/url_strategy.dart';
 import 'common/constants.dart';
 import 'sections/about/about_section.dart';
+import 'sections/service/service_section.dart';
 
 void main() {
   setPathUrlStrategy();
@@ -32,6 +33,7 @@ class HomePage extends StatelessWidget {
             TopSection(),
             SizedBox(height: kDefaultPadding * 2),
             AboutSection(),
+            ServiceSection(),
           ],
         ),
       ),
