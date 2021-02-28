@@ -1,34 +1,34 @@
 class RecentWork {
-  final String image, category, title;
+  final String image, category, title, description, url;
   final int id;
 
-  RecentWork({this.id, this.image, this.category, this.title});
+  RecentWork(
+      {this.id,
+      this.image,
+      this.category,
+      this.title,
+      this.description,
+      this.url});
 }
 
 // Demo List of my works
 List<RecentWork> recentWorks = [
   RecentWork(
     id: 1,
-    title: "New & Fresh Looking Portfolio indeed at the end",
-    category: "Graphic Design",
-    image: "assets/images/work_1.png",
+    title: "Flash Chat",
+    category: "Mobile Apps",
+    image: "assets/images/flash_chat.png",
+    description:
+        "An instant messaging app which helps you easily connected with your friends",
+    url: "https://github.com/TjandraD/flash-chat.git",
   ),
   RecentWork(
     id: 2,
-    title: "New & Fresh Looking Portfolio indeed at the end",
-    category: "Graphic Design",
-    image: "assets/images/work_2.png",
-  ),
-  RecentWork(
-    id: 3,
-    title: "New & Fresh Looking Portfolio indeed at the end",
-    category: "Graphic Design",
-    image: "assets/images/work_3.png",
-  ),
-  RecentWork(
-    id: 4,
-    title: "New & Fresh Looking Portfolio indeed at the end",
-    category: "Graphic Design",
-    image: "assets/images/work_4.png",
+    title: "Ngabolang",
+    category: "Mobile Apps",
+    image: "assets/images/ngabolang.jpg",
+    description:
+        "Ngabolang is an application to share your experiences when visiting tourist attractions. In Ngabolang, you can upload and also view photos from various tourist destinations. You can also find out the location of the tourist spots by using the map available in the Ngabolang app.",
+    url: "https://github.com/IKHSRF/ngabolang-mobile.git",
   ),
 ];
