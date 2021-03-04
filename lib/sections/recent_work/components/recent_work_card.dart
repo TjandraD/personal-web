@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio_web/models/RecentWork.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../../../common/constants.dart';
 
 class RecentWorkCard extends StatefulWidget {
@@ -19,6 +20,10 @@ class RecentWorkCard extends StatefulWidget {
 class _RecentWorkCardState extends State<RecentWorkCard> {
   bool isHover = false;
   Duration duration = Duration(milliseconds: 200);
+
+  void launchURL(String url) async =>
+      await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
@@ -65,7 +70,9 @@ class _RecentWorkCardState extends State<RecentWorkCard> {
                   ),
                   SizedBox(height: kDefaultPadding),
                   GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      launchURL(recentWorks[widget.index].url);
+                    },
                     child: Container(
                       padding: EdgeInsets.all(8.0),
                       width: 200.0,

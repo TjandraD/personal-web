@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_web/sections/top/components/link_list.dart';
 import 'components/logo_content.dart';
 import 'components/person_pic.dart';
 
@@ -13,13 +14,23 @@ class TopSection extends StatelessWidget {
       color: Color(0xFF736598),
       child: Container(
         width: 1200,
-        child: Row(
+        child: Stack(
           children: [
-            Expanded(child: LogoAndContent(size: size)),
-            Expanded(
-              child: Center(
-                child: PersonPic(),
-              ),
+            Row(
+              children: [
+                Expanded(child: LogoAndContent(size: size)),
+                Expanded(
+                  child: Center(
+                    child: PersonPic(),
+                  ),
+                ),
+              ],
+            ),
+            Positioned(
+              left: 0,
+              right: 0,
+              bottom: 0,
+              child: LinkList(),
             ),
           ],
         ),

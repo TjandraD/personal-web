@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../common/constants.dart';
 import 'default_button.dart';
 
@@ -6,6 +7,9 @@ class HireMeCard extends StatelessWidget {
   const HireMeCard({
     Key key,
   }) : super(key: key);
+
+  void launchURL(String url) async =>
+      await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +54,9 @@ class HireMeCard extends StatelessWidget {
           DefaultButton(
             text: "Hire Me!",
             imageSrc: "assets/images/hand.png",
-            press: () {},
+            press: () {
+              launchURL('mailto:tjandradarmo@protonmail.com');
+            },
           )
         ],
       ),

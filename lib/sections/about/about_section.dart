@@ -2,10 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:portfolio_web/widgets/default_button.dart';
 import 'package:portfolio_web/widgets/my_outline_button.dart';
 import 'package:portfolio_web/common/constants.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'components/about_section_text.dart';
 import 'components/about_text_with_sign.dart';
 
 class AboutSection extends StatelessWidget {
+  void launchURL(String url) async =>
+      await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -35,13 +39,18 @@ class AboutSection extends StatelessWidget {
               MyOutlineButton(
                 imageSrc: "assets/images/hand.png",
                 text: "Hire Me!",
-                press: () {},
+                press: () {
+                  launchURL('mailto:tjandradarmo@protonmail.com');
+                },
               ),
               SizedBox(width: kDefaultPadding * 1.5),
               DefaultButton(
                 imageSrc: "assets/images/download.png",
-                text: "Download CV",
-                press: () {},
+                text: "Download Resume",
+                press: () {
+                  launchURL(
+                      'https://drive.google.com/file/d/1L2-AfWIgbbBTkDRHAQJL6cfSSqUwSdzE/view?usp=sharing');
+                },
               ),
             ],
           ),

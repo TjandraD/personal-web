@@ -31,4 +31,13 @@ List<RecentWork> recentWorks = [
         "Ngabolang is an application to share your experiences when visiting tourist attractions. In Ngabolang, you can upload and also view photos from various tourist destinations. You can also find out the location of the tourist spots by using the map available in the Ngabolang app.",
     url: "https://github.com/IKHSRF/ngabolang-mobile.git",
   ),
+  RecentWork(
+    id: 3,
+    title: "Prawitama Care (Under Development)",
+    category: "Website",
+    image: "assets/images/prawitama-care.jpg",
+    description:
+        "A crowdfunding web by Prawitama to help gather funds for internal charity acts.",
+    url: "https://github.com/TjandraD/crowdfunding-web.git",
+  ),
 ];
