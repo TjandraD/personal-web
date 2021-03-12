@@ -1,11 +1,11 @@
 {
-    "name": "portfolio_web",
-    "short_name": "portfolio_web",
+    "name": "Tjandra Darmo",
+    "short_name": "TD",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "I love to solve problems using technology - starting from common problems and transforming it into an applicable solution for society. Professionally, I have done this at a software house during my internship period; personally, I'm an innovator that's driven to help my team solve our problems.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
