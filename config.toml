@@ -1,0 +1,4 @@
+baseURL = "https://tjandradarmo.me/"
+languageCode = "en-us"
+title = "Tjandra Darmo"
+theme = "introduction"
