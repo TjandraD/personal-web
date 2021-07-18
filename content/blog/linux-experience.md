@@ -1,7 +1,6 @@
 ---
 title: "Returning to Windows From Ubuntu, Twice. Why?"
 date: 2021-01-12T10:59:28+07:00
-draft: true
 ---
 
 ![Ubuntu Desktop](https://cdn-images-1.medium.com/max/6144/1*4v-WygvY4uukdlN3SYkbYw.png)
@@ -39,6 +38,8 @@ So why did I chose to get back into Windows?
 Well, after all the struggles that I’ve been through with experimenting with differents Operating Systems, I came up with one conclusion. My main priority is an OS that can handle all of my needs, without the need to waste a lot of time trying to configure the OS itself. Also, because I play some games and use Adobe apps on Windows. And Windows is just a perfect answer for that.
 
 Then, what about the performance issue I was facing before in the Android emulator? I handled it just by upgrading my RAM to 12GB and using VS Code, which is a lightweight text editor, compared to Android Studio.
+
+---
 
 And, that’s it! That is my whole journey of wasting my time searching for a perfect Operating System. Although, in the end, I came back with the first OS I used in the past. But, one thing for sure, the terminal in Linux is a whole different experience compared to CMD or Powershell in Windows. I already tried WSL2, but looks like it doesn’t give me a lot of benefits. So I just chose to use Windows as it is.
 

@@ -53,4 +53,6 @@ The last webinar from Generasi GIGIH is a webinar by Kevin Aluwi, Co-Founder and
 
 Based on the topic of this webinar, Kevin also shares some tips on how to become a change maker. The main point is we only need to start by doing some little things in our life. When we already achieve those things, we could broaden our goals.
 
+---
+
 Okay, so that’s just it. I hope you guys find something useful in this post. Cheers!
