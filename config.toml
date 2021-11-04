@@ -4,7 +4,7 @@ title = "Tjandra Darmo"
 theme = "introduction"
 [params]
     description     = "Tjandra Darmo, Mobile Apps Developer. I love to solve problems using technology - starting from common problems and transforming it into an applicable solution for society. Professionally, I have done this at a software house during my internship period; personally, I'm an innovator that's driven to help my team solve our problems."
-    themeStyle      = "auto"                  # Choose "light" or "dark" or "auto"
+    themeStyle      = "light"                  # Choose "light" or "dark" or "auto"
     favicon         = "/img/favicon.png"          # Path to favicon file
     showRSSButton   = false                   # Show rss button in navigation
     fadeIn          = true                    # Turn on/off the fade-in effect
