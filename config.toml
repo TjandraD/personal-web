@@ -23,7 +23,7 @@ theme = "introduction"
         timeFormat               = "en-US"                 # Language specific format to use
 
     [params.projects]
-        useTwoColumns            = false                   # Use a layout with two columns instead of three
+        useTwoColumns            = true                   # Use a layout with two columns instead of three
 
     # Share buttons on blog post pages
     [params.share]
